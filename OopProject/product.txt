@@ -1,0 +1,5 @@
+Nasi Lemak/360.0/4.5#Milo/100.0/2.0
+Roti canai/200.0/2.0#Sirap/210.0/1.8
+Nasi Madu Ayam/500.0/5.0#Teh O/120.0/1.5
+!#Kopi/180.0/3.0
+!#Latte/100.0/5.0
