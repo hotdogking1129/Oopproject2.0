@@ -14,16 +14,16 @@ import javax.crypto.spec.SecretKeySpec;
 public class Main {
 		
 	public static void main(String[] args) throws InterruptedException, IOException {
-		
+		//Declaration
 		List<User>user = new ArrayList<>();
 		List<Food>food = new ArrayList<>();
 		List<Drink>drink = new ArrayList<>();
 		List<OrderList>orderList = new ArrayList<>();
 		
-		//Read product from the file
+		//Read product from the file product.txt
 		Scanner readFile = new Scanner(new File("product.txt"));
 		int fileloop = 0;
-		while (readFile.hasNextLine()) {
+		while (readFile.hasNextLine()) {//when file is not empty
 			String a = readFile.nextLine();
 			String[] b = a.split("#",2);
 			String[] c = b[0].split("/", 3);
@@ -117,7 +117,7 @@ public class Main {
 				}else if(d1[4].equalsIgnoreCase("normal")) {
 					sauce = 3;
 				}
-				//set foodname, calories, price, quantity and sauce into food arrayList
+				//set foodname, calories, price, quantity and sauce into foodReadFile arrayList
 				foodReadFile.add(new Food(d1[0], Double.valueOf(d1[1]), Double.valueOf(d1[2]), Integer.valueOf(d1[3]), sauce));
 				//Set food into orderList arrayList
 				orderList.get(fileloop).setFood(foodReadFile);
@@ -128,14 +128,14 @@ public class Main {
 			String[] c2 = b[2].split("@",0);
 			for(int i=1 ; i < c2.length ;i++) {
 				String[] d2 = c2[i].split("/",0);
-				//set DrinkName, calories, price, quantity, goLarge status and addIce status into drink arrayList
+				//set DrinkName, calories, price, quantity, goLarge status and addIce status into drinkReadFile arrayList
 				drinkReadFile.add(new Drink(d2[0], Double.valueOf(d2[1]), Double.valueOf(d2[2]), Integer.valueOf(d2[3]) , Boolean.valueOf(d2[4]), Boolean.valueOf(d2[5])));
 				//Set drink into orderList arrayList
 				orderList.get(fileloop).setDrink(drinkReadFile);
 			}
 			
 			//Date
-			//set date into 
+			//set date into orderList
 			orderList.get(fileloop).setOrderTime(b[3]);
 			fileloop++;
 		}

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class OrderList {
-	
+	//Declaration 
 	private User user;
 	private List<Food> food = new ArrayList<>();
 	private List<Drink> drink = new ArrayList<>();

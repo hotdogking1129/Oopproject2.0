@@ -1,6 +1,7 @@
 package part1;
 
 public class Food extends Product{
+	//Declaration
 	final static int spicy = 1;
 	final static int tomato = 2;
 	final static int  normal = 3;

@@ -4,6 +4,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
 public class User {
+	//Declaration
 	private String userName;
 	private String noMatrics;
 	private String password;

@@ -1,6 +1,7 @@
 package part1;
 
 public class Drink extends Product{
+	//Declaration
 	private Boolean large = false;
 	private Boolean hot = true;
 	private final double ADD_ICE = 0.50;

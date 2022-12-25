@@ -1,6 +1,7 @@
 package part1;
 
 public class Product {
+	//Declaration
 	private String productName;
 	private double detail;
 	private double price;

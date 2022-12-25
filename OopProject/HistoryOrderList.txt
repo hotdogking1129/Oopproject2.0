@@ -1,1 +1,11 @@
 AI210343#@Nasi Madu Ayam/500.0/5.0/1/tomato@Nasi Lemak/360.0/4.5/1/tomato#@Sirap/420.0/3.3/1/true/true#18/12/2022 14:18:23
+SEE (AI210334) 21/12/2022 00:29:28
+------FOOD-----
+1)Roti canai (tomato) (200.0 kcal)-RM2.00 - 10
+
+------Drink------
+1)Kopi (Large, Cold ) (180.0 kcal)-RM3.00 - 1
+
+Total Amount: RM23.0
+
+
