@@ -181,7 +181,7 @@ public class Admin {
 			do {
 				//Print menu
 				System.out.println("--------Admin mode---------");
-				System.out.println("|1)OrderList              |");
+				System.out.println("|1)Order List             |");
 				System.out.println("|2)Product                |");
 				System.out.println("|3)User setting           |");
 				System.out.println("|4)Exit                   |");
@@ -208,8 +208,8 @@ public class Admin {
 					do {
 						//Print menu for orderList
 						System.out.println("\n\n------OrderList mode-------");
-						System.out.println("|1)View OrderList         |");
-						System.out.println("|2)Complete Order         |");
+						System.out.println("|1)View Order List        |");
+						System.out.println("|2)Complete an Order      |");
 						System.out.println("|3)Exit                   |");
 						System.out.println("---------------------------");
 						

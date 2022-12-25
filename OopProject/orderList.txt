@@ -1,2 +1,2 @@
 AI210343#@Nasi Madu Ayam/500.0/5.0/1/tomato@Nasi Lemak/360.0/4.5/1/tomato#@Sirap/420.0/3.3/1/true/true#18/12/2022 14:18:23
-AI210408#@Nasi Madu Ayam/500.0/5.0/9/normal#@Latte/200.0/7.0/1/true/false#21/12/2022 00:28:59
+AI210408#@Nasi Madu Ayam/500.0/5.0/9/normal#@Latte/200.0/7.0/1/true/false@Milo/200.0/4.0/1/true/false#21/12/2022 00:28:59

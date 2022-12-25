@@ -442,7 +442,7 @@ public class Main {
 							//print cancel menu
 							System.out.println("---------------Cancel order---------------");
 							System.out.println("1) Cancel all order");
-							System.out.println("2) Cancel a order");
+							System.out.println("2) Cancel an item from the order");
 							System.out.println("3) Exit");
 							System.out.println("------------------------------------------");
 							do {
