@@ -570,7 +570,7 @@ public class Main {
 					
 				case 5:
 					System.out.println("--------------------End-------------------------");
-					
+					System.out.println("The process have been saved.");
 					//Write orderList into orderList.txt
 					File file = null;
 					try {

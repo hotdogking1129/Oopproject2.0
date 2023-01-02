@@ -244,7 +244,7 @@ public class Admin {
 								System.out.println("----------------------------Drink---------------------------");
 								for(int j = 0; j<orderList.get(i).getDrink().size() ; j++) {
 									//Display drink ordered by the customer
-									System.out.println( j+1+ ")" + orderList.get(j).getDrink().get(j) + " --- " + orderList.get(i).getDrink().get(j).getQuantityInOrder());
+									System.out.println( j+1+ ")" + orderList.get(i).getDrink().get(j) + " --- " + orderList.get(i).getDrink().get(j).getQuantityInOrder());
 								}
 							}
 							
@@ -273,7 +273,7 @@ public class Admin {
 								System.out.println("----------------------------Drink---------------------------");
 								for(int j = 0; j<orderList.get(i).getDrink().size() ; j++) {
 									//Display drink ordered by the customer
-									System.out.println( j+1+ ")" + orderList.get(j).getDrink().get(j) + " --- " + orderList.get(i).getDrink().get(j).getQuantityInOrder());
+									System.out.println( j+1+ ")" + orderList.get(i).getDrink().get(j) + " --- " + orderList.get(i).getDrink().get(j).getQuantityInOrder());
 								}
 							}
 						}
